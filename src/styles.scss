@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import "/src/assets/sass/variable";
+@import "/src/assets/sass/mixins";
+
+@import "/src/assets/sass/base";
+@import "/src/assets/sass/header";
+@import "/src/assets/sass/hero";
+@import "/src/assets/sass/home-page";
+@import "/src/assets/sass/shop-grid";
+@import "/src/assets/sass/sidebar";
+@import "/src/assets/sass/responsive";
+@import "/src/assets/sass/shop-details";
