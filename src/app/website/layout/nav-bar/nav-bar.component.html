@@ -1,42 +1,50 @@
- <!-- Header Section Begin -->
+
+<!-- Header Section Begin -->
  <header class="header">
     <div class="header__top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="header__top__left">
-                        <ul>
-                            <li><i class="fa fa-envelope"></i> hello@scrrum.com</li>
-                            <li>Free Shipping for all Order of ₹99</li>
-                        </ul>
+                        <nav class="header__menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li><a routerLink="/shop">Shop</a></li>
+                                <li><a href="/tourism">tourism</a></li>
+                                <li><a href="/service">services</a>
+                                  
+                                    <ul class="header__menu__dropdown">
+                                        <li><a href="./shop-details.html">Plumbing</a></li>
+                                        <li><a href="./shoping-cart.html">Electrician</a></li>
+                                        <li><a href="./checkout.html">AC Service / Repair</a></li>
+                                        <li><a href="./blog-details.html">Carpenter</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./contact.html">Jobs</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
+                    
                     <div class="header__top__right">
-                        <div class="header__top__right__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                        </div>
-                        <div class="header__top__right__language">
-                            <img src="img/language.png" alt="">
-                            <div>English</div>
-                            <span class="arrow_carrot-down"></span>
-                            <ul>
-                                <li><a href="#">Spanis</a></li>
-                                <li><a href="#">English</a></li>
-                            </ul>
-                        </div>
+                        <input type="button" class="button" value="List our place">
                         <div class="header__top__right__auth">
-                            <a href="#"><i class="fa fa-user"></i> Login</a>
+                        </div>
+                        &nbsp;  &nbsp;
+                        <div class="header__top__right__auth">
+                            <input type="button" class="button2" value="sign in">
+                        </div>
+                        &nbsp;  &nbsp;
+                        <div class="header__top__right__auth">
+                            <input type="button" class="button" value="Input Button">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
             <div class="col-lg-3">
                 <div class="header__logo">
@@ -75,6 +83,6 @@
         <div class="humberger__open">
             <i class="fa fa-bars"></i>
         </div>
-    </div>
+    </div> -->
 </header>
 <!-- Header Section End -->

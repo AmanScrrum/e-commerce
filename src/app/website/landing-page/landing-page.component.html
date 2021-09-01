@@ -1,63 +1,351 @@
   <app-nav-bar></app-nav-bar>
   <!-- Hero Section Begin -->
-  <section class="hero">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="hero__categories">
-            <div class="hero__categories__all">
-              <i class="fa fa-bars"></i>
-              <span>All Brands</span>
-            </div>
-            <ul>
-              <li *ngFor ="let brands of value"><a href="#">{{brands.name}}</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="hero__search">
-            <div class="hero__search__form">
-              <form action="#">
-                <div class="hero__search__categories">
-                    
-                 <select class="form-control search-slt" id="exampleFormControlSelect1">
-                                <option>Products </option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                            </select>
-                  
-                </div>
-                <input type="text" placeholder="What do yo u need?">
-                <button type="submit" class="site-btn">SEARCH</button>
-              </form>
-            </div>
-            <!-- <div class="hero__search__phone">
-              <div class="hero__search__phone__icon">
-                <i class="fa fa-phone"></i>
-              </div>
-              <div class="hero__search__phone__text">
-                <h5>+65 11.188.888</h5>
-                <span>support 24/7 time</span>
-              </div>
-            </div> -->
-          </div>
-          <div class="hero__item set-bg" style="background-image: url(assets/img/hero/banner.jpg);">
+ 
+   	<!--about-us start -->
+		<section id="home" class="about-us">
+			<div class="container">
+				<div class="about-us-content">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="single-about-us">
+								<div class="about-us-txt">
+									<h2>
+										Explore the Beauty of the Beautiful World 
 
-            <div class="hero__text">
-              <!-- <span>FRUIT FRESH</span>
-              <h2>Vegetable <br />100% Organic</h2>
-              <p>Free Pickup and Delivery Available</p> -->
-              <a href="#" class="primary-btn">SHOP NOW</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+									</h2>
+									<div class="about-btn">
+										<button  class="about-view">
+											explore now
+										</button>
+									</div><!--/.about-btn-->
+								</div><!--/.about-us-txt-->
+							</div><!--/.single-about-us-->
+						</div><!--/.col-->
+						<div class="col-sm-0">
+							<div class="single-about-us">
+								
+							</div><!--/.single-about-us-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.about-us-content-->
+			</div><!--/.container-->
+
+		</section><!--/.about-us-->
+		<!--about-us end -->
+
+		<!--travel-box start-->
+		<section  class="travel-box">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="single-travel-boxes">
+        					<div id="desc-tabs" class="desc-tabs">
+
+								<ul class="nav nav-tabs" role="tablist">
+
+									<li role="presentation" class="active">
+									 	<a href="#tours" aria-controls="tours" role="tab" data-toggle="tab">
+									 		<!-- <i class="fa fa-tree"></i> -->
+									 		Shop
+									 	</a>
+									</li>
+
+									<li role="presentation">
+										<a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">
+											<!-- <i class="fa fa-building"></i> -->
+											Tourism
+										</a>
+									</li>
+
+									<li role="presentation">
+									 	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">
+									 		<!-- <i class="fa fa-plane"></i> -->
+									 	Service
+									 	</a>
+									</li>
+									<li role="presentation">
+									 	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">
+									 		<!-- <i class="fa fa-plane"></i> -->
+									 	Jobs
+									 	</a>
+									</li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+
+									<div role="tabpanel" class="tab-pane active fade in" id="tours">
+										<div class="tab-para">
+
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>destination</h2>
+
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">Choose by category</option><!-- /.option-->
+
+															  	<option value="turkey">turkey</option><!-- /.option-->
+
+															  	<option value="russia">russia</option><!-- /.option-->
+															  	<option value="egept">egypt</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+
+														<!-- /.travel-select-icon -->
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+											
+
+											</div><!--/.row-->
+
+											<div class="row">
+												<div class="col-sm-5">
+                          
+                        </div>
+											<!--/.col-->
+												<div class="clo-sm-7">
+													<div class="about-btn travel-mrt-0 pull-right">
+														<button  class="about-view travel-btn">
+															search	
+														</button><!--/.travel-btn-->
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+										</div><!--/.tab-para-->
+
+									</div><!--/.tabpannel-->
+
+									<div role="tabpanel" class="tab-pane fade in" id="hotels">
+										<div class="tab-para">
+
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>destination</h2>
+
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">enter your destination country</option><!-- /.option-->
+
+															  	<option value="turkey">turkey</option><!-- /.option-->
+
+															  	<option value="russia">russia</option><!-- /.option-->
+															  	<option value="egept">egypt</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">enter your destination location</option><!-- /.option-->
+
+															  	<option value="istambul">istambul</option><!-- /.option-->
+
+															  	<option value="mosko">mosko</option><!-- /.option-->
+															  	<option value="cairo">cairo</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												
+
+											</div><!--/.row-->
+
+											<div class="row">
+												<div class="col-sm-5"></div><!--/.col-->
+												<div class="clo-sm-7">
+													<div class="about-btn travel-mrt-0 pull-right">
+														<button  class="about-view travel-btn">
+															search	
+														</button><!--/.travel-btn-->
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+										</div><!--/.tab-para-->
+
+									</div><!--/.tabpannel-->
+
+									<div role="tabpanel" class="tab-pane fade in" id="flights">
+										<div class="tab-para">
+											<div class="trip-circle">
+												<div class="single-trip-circle">
+													<input type="radio" id="radio01" name="radio" />
+  													<label for="radio01">
+  														<span class="round-boarder">
+  															<span class="round-boarder1"></span>
+  														</span>round trip
+  													</label>
+												</div><!--/.single-trip-circle-->
+												<div class="single-trip-circle">
+													<input type="radio" id="radio02" name="radio" />
+  													<label for="radio02">
+  														<span class="round-boarder">
+  															<span class="round-boarder1"></span>
+  														</span>on way
+  													</label>
+												</div><!--/.single-trip-circle-->
+											</div><!--/.trip-circle-->
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>from</h2>
+
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">enter your location</option><!-- /.option-->
+
+															  	<option value="turkey">turkey</option><!-- /.option-->
+
+															  	<option value="russia">russia</option><!-- /.option-->
+															  	<option value="egept">egypt</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>departure</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="departure" class="form-control" data-toggle="datepicker"
+																placeholder="12 -01 - 2017 ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>return</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="return" class="form-control" data-toggle="datepicker" placeholder="22 -01 - 2017 ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>adults</h2>
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">5</option><!-- /.option-->
+
+															  	<option value="10">10</option><!-- /.option-->
+
+															  	<option value="15">15</option><!-- /.option-->
+															  	<option value="20">20</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>childs</h2>
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">1</option><!-- /.option-->
+
+															  	<option value="2">2</option><!-- /.option-->
+
+															  	<option value="4">4</option><!-- /.option-->
+															  	<option value="8">8</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>to</h2>
+
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">enter your destination location</option><!-- /.option-->
+
+															  	<option value="istambul">istambul</option><!-- /.option-->
+
+															  	<option value="mosko">mosko</option><!-- /.option-->
+															  	<option value="cairo">cairo</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+												<div class="col-lg-3 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+
+														<h2>class</h2>
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">enter class</option><!-- /.option-->
+
+															  	<option value="A">A</option><!-- /.option-->
+
+															  	<option value="B">B</option><!-- /.option-->
+															  	<option value="C">C</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+												<div class="clo-sm-5">
+													<div class="about-btn pull-right">
+														<button  class="about-view travel-btn">
+															search	
+														</button><!--/.travel-btn-->
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+												
+											</div><!--/.row-->
+
+										</div>
+
+									</div><!--/.tabpannel-->
+
+								</div><!--/.tab content-->
+							</div><!--/.desc-tabs-->
+        				</div><!--/.single-travel-box-->
+        			</div><!--/.col-->
+        		</div><!--/.row-->
+        	</div><!--/.container-->
+
+        </section><!--/.travel-box-->
+		<!--travel-box end-->
   <!-- Hero Section End -->
 
 
