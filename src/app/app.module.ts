@@ -6,9 +6,21 @@ import { AppComponent } from './app.component';
 import { WebsiteModuleModule } from './website/website-module/website-module.module';
 
 
+
+
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
+    
+   
+   
+   
+  
+   
   ],
   imports: [
     BrowserModule,

@@ -4,11 +4,11 @@ import { Observable, of } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class BrandsService {
+export class ProductService {
 
   constructor() { }
-  getBrand(): Observable<any>{
-    let Brands = [
+  getProduct(): Observable <any>{
+    let Product = [
       {
        id : 1,
        _id :"brand-name",
@@ -36,7 +36,7 @@ export class BrandsService {
       {
        id : 1,
        _id :"brand-name",
-       name : 'HTC',
+       name : 'Jack & Jones',
        price : 30,
        Thumbnail : "../../../assets/img/featured/feature-14.jpg"
  
@@ -44,7 +44,7 @@ export class BrandsService {
       {
        id : 1,
        _id :"brand-name",
-       name : 'Blackberry',
+       name : 'Jack & Jones',
        price : 30,
        Thumbnail : "../../../assets/img/featured/feature-15.jpg"
  
@@ -52,7 +52,7 @@ export class BrandsService {
       {
        id : 1,
        _id :"brand-name",
-       name : 'Microsoft',
+       name : 'Jack & Jones',
        price : 30,
        Thumbnail : "../../../assets/img/featured/feature-16.jpg"
  
@@ -60,12 +60,12 @@ export class BrandsService {
       {
        id : 1,
        _id :"brand-name",
-       name : 'Nike',
+       name : 'Jack & Jones',
        price : 30,
        Thumbnail : "../../../assets/img/featured/feature-17.jpg"
  
       },
     ]
-    return of(Brands);
+    return of(Product)
    }
 }
