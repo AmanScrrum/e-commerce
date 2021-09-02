@@ -9,14 +9,14 @@
 						<div class="col-sm-12">
 							<div class="single-about-us">
 								<div class="about-us-txt">
-									<h2>
+									<!-- <h2>
 										Explore the Beauty of the Beautiful World 
 
-									</h2>
+									</h2> -->
 									<div class="about-btn">
-										<button  class="about-view">
+										<!-- <button  class="about-view">
 											explore now
-										</button>
+										</button> -->
 									</div><!--/.about-btn-->
 								</div><!--/.about-us-txt-->
 							</div><!--/.single-about-us-->
@@ -28,6 +28,24 @@
 						</div><!--/.col-->
 					</div><!--/.row-->
 				</div><!--/.about-us-content-->
+         <!-- Banner Begin -->
+  <div class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="banner__pic">
+            <img src="https://img.freepik.com/free-psd/black-friday-sale-banner-template-with-3d-shop-bags-shopping-cart_106244-978.jpg?size=626&ext=jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="banner__pic">
+            <img src="https://img.freepik.com/free-psd/black-friday-sale-banner-template-with-3d-shop-bags-shopping-cart_106244-978.jpg?size=626&ext=jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Banner End -->
 			</div><!--/.container-->
 
 		</section><!--/.about-us-->
@@ -45,28 +63,28 @@
 
 									<li role="presentation" class="active">
 									 	<a href="#tours" aria-controls="tours" role="tab" data-toggle="tab">
-									 		<!-- <i class="fa fa-tree"></i> -->
+									 		<i class="fa fa-shopping-cart"></i>
 									 		Shop
 									 	</a>
 									</li>
 
 									<li role="presentation">
 										<a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">
-											<!-- <i class="fa fa-building"></i> -->
-											Tourism
+											<i class="fa fa-shopping-cog"></i>
+                      Service
 										</a>
 									</li>
 
 									<li role="presentation">
 									 	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">
-									 		<!-- <i class="fa fa-plane"></i> -->
-									 	Service
+									 		<i class="fa fa-suitcase"></i>
+                       Jobs
 									 	</a>
 									</li>
 									<li role="presentation">
 									 	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">
-									 		<!-- <i class="fa fa-plane"></i> -->
-									 	Jobs
+									 		<i class="fa fa-tree"></i>
+                    Places
 									 	</a>
 									</li>
 								</ul>
@@ -346,9 +364,41 @@
 
         </section><!--/.travel-box-->
 		<!--travel-box end-->
+
+    <app-gallery></app-gallery>
   <!-- Hero Section End -->
 
-
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                            <!-- Icon Divider-->
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <!-- Portfolio Modal - Image-->
+                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <!-- Portfolio Modal - Text-->
+                            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                            <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
   <!-- Featured Section Begin -->
   <section class="featured spad">
@@ -391,24 +441,7 @@
   </section>
   <!-- Featured Section End -->
 
-  <!-- Banner Begin -->
-  <div class="banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="banner__pic">
-            <img src="../../../assets/img/featured/feature-9.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="banner__pic">
-            <img src="../../../assets/img/featured/feature-9.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Banner End -->
+ 
 
   <!-- Latest Product Section Begin -->
   <section class="latest-product spad">

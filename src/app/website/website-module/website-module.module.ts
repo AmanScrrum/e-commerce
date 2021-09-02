@@ -11,6 +11,7 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
 import { ServicePageComponent } from '../service-page/service-page.component';
 import { ContactUsComponent } from '../contact-us/contact-us.component';
 import { ToursimComponent } from '../toursim/toursim.component';
+import { GalleryComponent } from '../gallery/gallery.component';
 
 
 
@@ -26,6 +27,7 @@ import { ToursimComponent } from '../toursim/toursim.component';
     ServicePageComponent,
     ContactUsComponent,
     ToursimComponent,
+    GalleryComponent,
   ],
   imports: [
     CommonModule,

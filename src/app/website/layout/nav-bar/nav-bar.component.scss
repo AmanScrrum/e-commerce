@@ -1,41 +1,21 @@
-.header__top__right {
-    text-align: right;
-    padding: 27px 0px 22px !important;
+.navbar-nav{
+  float:right;
+  text-align: left;
 }
-.button {
-    background-color:white;
-    border-color:green;
-    color: black ;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 20px;
+.navbar{
+  margin-bottom: 0px !important;
+}
+.container{
 
-    &:hover{
-        background-color: green;
-    }
-    
+  img{
+    height:auto;
+    width:50%;
   }
-  .button2{
-    background-color:white;
-    border:none;
-    color: black ;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 20px;
-    &:hover{
-        background-color: gray;
+  .navbar-brand {
+    float: right;
+    height: 50px;
+    padding: 0px 0px;
+    font-size: 5px;
+    line-height: 20px;
 }
-  }
-  .header__top {
-    background: white !important;
 }
