@@ -12,7 +12,7 @@ export class BrandsService {
       {
        id : 1,
        _id :"brand-name",
-       name : 'Apple',
+       name : 'Boat',
        price : 30,
        Thumbnail :"../../../assets/img/featured/feature-9.jpg" 
  
@@ -28,7 +28,7 @@ export class BrandsService {
       {
        id : 1,
        _id :"brand-name",
-       name : 'Jack & Jones',
+       name : 'Apple',
        price : 30,
        Thumbnail : "../../../assets/img/featured/feature-12.jpg"
  
@@ -36,7 +36,7 @@ export class BrandsService {
       {
        id : 1,
        _id :"brand-name",
-       name : 'HTC',
+       name : 'Jack & Jones',
        price : 30,
        Thumbnail : "../../../assets/img/featured/feature-14.jpg"
  
@@ -44,7 +44,7 @@ export class BrandsService {
       {
        id : 1,
        _id :"brand-name",
-       name : 'Blackberry',
+       name : 'Jack & Jones',
        price : 30,
        Thumbnail : "../../../assets/img/featured/feature-15.jpg"
  
@@ -52,7 +52,7 @@ export class BrandsService {
       {
        id : 1,
        _id :"brand-name",
-       name : 'Microsoft',
+       name : 'Jack & Jones',
        price : 30,
        Thumbnail : "../../../assets/img/featured/feature-16.jpg"
  
@@ -63,7 +63,6 @@ export class BrandsService {
        name : 'Nike',
        price : 30,
        Thumbnail : "../../../assets/img/featured/feature-17.jpg"
- 
       },
     ]
     return of(Brands);

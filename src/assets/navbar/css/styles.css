@@ -182,7 +182,7 @@ abbr[data-bs-original-title] {
     margin-right: 0rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: rgb(3, 3, 3);
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #1abc9c;

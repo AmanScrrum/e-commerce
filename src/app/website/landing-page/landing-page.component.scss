@@ -16,3 +16,41 @@
 .next{
     background-color: red;
 }
+#auto{
+    position: absolute;
+    bottom: 150px;
+}
+.banner__pic{
+    width:70%;
+    
+}
+.input{
+    width:100%;
+    font-size: 24px;
+    height:80%;
+}
+.statistics-img, .service-img{
+    width:30%;
+}
+.single-service-box{
+    background-color:white;
+    .service-content h2, p{
+        color:rgb(36, 34, 34);
+        font-size: 20px;
+    }
+}
+.single-travel-boxes {
+    margin-top: -175px;
+    background: #fff;
+}
+
+.text-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.service {
+    position: relative;
+    padding: 80px 0 0px;
+}
